@@ -1,0 +1,96 @@
+@inproceedings{qian2017car,
+  title={Obstacle Detection in Outdoor Scenes based on Multi-Valued Stereo Disparity Maps},
+  author={Qian Ge and Edgar Lobaton},
+  year={2017},
+  booktitle={IEEE Symp. Series Comput. Intell. (SSCI)},
+  _venue={IEEE Symp. Series Comput. Intell. (SSCI)},
+  url={http://conan7882.github.io/data/papers/qian-ssci2017-car.pdf},
+  abstract={
+    In this paper, we propose a methodology for robust obstacle detection in outdoor scenes for autonomous driving applications using a multi-valued stereo disparity approach. Traditionally, disparity maps computed from stereo pairs only provide a single estimated disparity value for each pixel. However, disparity computation suffers heavily from reflections, lack of texture and repetitive patterns of objects. This may lead to wrong estimates, which can introduce some bias on obstacle detection approaches that make use of the disparity map. To overcome this problem, instead of a single-valued disparity estimation, we propose making use of multiple candidates per pixel. The candidates are selected from a statistical analysis that characterizes the performance of the underlying matching cost function based on two metrics: The number of candidates extracted, and the distance from these candidates to the true disparity value. Then, we construct an aggregate occupancy map in u-disparity space from which obstacle detection is obtained. Experiments show that our approach can recover the correct structure of obstacles on the scene when traditional estimation approaches fail.
+  }
+}
+
+@inproceedings{qian2017foramsseg,
+  title = "{Coarse-to-Fine Foraminifera Image Segmentation through 3D and Deep Features}",
+  author={Qian Ge and Boxuan Zhong and Bhargav Kanakiya and Ritayan Mitra and Thomas Marchitto and Edgar Lobaton},
+  booktitle={IEEE Symp. Series Comput. Intell. (SSCI)},
+  _venue={IEEE Symp. Series Comput. Intell. (SSCI)},
+  year={2017},
+  url={http://conan7882.github.io/data/papers/qian-ssci2017-foramsseg.pdf},
+  abstract={
+    Foraminifera are single-celled marine organisms, which are usually less than 1 mm in diameter. One of the most common tasks associated with foraminifera is the species identification of thousands of foraminifera contained in rock or ocean sediment samples, which can be a tedious manual procedure. Thus an automatic visual identification system is desirable. Some of the primary criteria for foraminifera species identification come from the characteristics of the shell itself. As such, segmentation of chambers and apertures in foraminifera images would provide powerful features for species identifica- tion. Nevertheless, none of the existing image-based, automatic classification approaches make use of segmentation, partly due to the lack of accurate segmentation methods for foraminifera images. In this paper, we propose a learning-based edge detection pipeline, using a coarse-to-fine strategy, to extract the vague edges from foraminifera images for segmentation using a relatively small training set. The experiments demonstrate our approach is able to segment chambers and apertures of foraminifera correctly and has the potential to provide useful features for species identification and other applications such as morphological study of foraminifera shells and foraminifera dataset labeling.
+  }
+}
+
+
+@inproceedings{boxuan2017foramsclassify,
+  title={A Comparative Study of Image Classification Algorithms for Foraminifera Identification},
+  author={Boxuan Zhong and Qian Ge and Bhargav Kanakiya and Ritayan Mitra and Thomas Marchitto and Edgar Lobaton},
+  booktitle={IEEE Symp. Series Comput. Intell. (SSCI)},
+  _venue={IEEE Symp. Series Comput. Intell. (SSCI)},
+  year={2017},
+  url={http://conan7882.github.io/data/papers/boxuan-ssci2017-foramsclassify.pdf},
+  abstract={
+    Identifying Foraminifera (or forams for short) is essential for oceanographic and geoscience research as well as petroleum exploration. Currently, this is mostly accomplished using trained human pickers, routinely taking weeks or even months to accomplish the task. In this paper, a foram identifica- tion pipeline is proposed to automatic identify forams based on computer vision and machine learning techniques. A microscope based image capturing system is used to collect a labelled image data set. Various popular image classification algorithms are adapted to this specific task and evaluated under various conditions. Finally, the potential of a weighted cross-entropy loss function in adjusting the trade-off between precision and recall is tested. The classification algorithms provide competitive results when compared to human experts labeling of the data set.
+  }
+}
+
+@inproceedings{qian2016consensus,
+  title={Consensus-Based Image Segmentation via Topological Persistence},
+  author={Qian Ge and Edgar Lobaton},
+  booktitle={IEEE Conf. on Comput. Vis. Pattern Recognit. Workshops (CVPRW)},
+  _venue={IEEE Conf. on Comput. Vis. Pattern Recognit. Workshops (CVPRW)},
+  year={2016},
+  url={http://conan7882.github.io/data/papers/qian-cvprw2017-consensus.pdf},
+  abstract={
+    Image segmentation is one of the most important low- level operation in image processing and computer vision. It is unlikely for a single algorithm with a fixed set of param- eters to segment various images successfully due to varia- tions between images. However, it can be observed that the desired segmentation boundaries are often detected more consistently than other boundaries in the output of state- of-the-art segmentation results. In this paper, we propose a new approach to capture the consensus of information from a set of segmentations generated by varying param- eters of different algorithms. The probability of a segmen- tation curve being present is estimated based on our proba- bilistic image segmentation model. A connectivity probabil- ity map is constructed and persistent segments are extracted by applying topological persistence to the probability map. Finally, a robust segmentation is obtained with the detec- tion of certain segmentation curves guaranteed. The ex- periments demonstrate our algorithm is able to consistently capture the curves present within the segmentation set.
+  }
+}
+
+@inproceedings{somrita2015car,
+  title={Robust Multi-Target Tracking in Outdoor Traffic Scenarios via Persistence Topology based Robust Motion Segmentation},
+  author={Somrita Chattopadhyay and Qian Ge and Chunpeng Wei and Edgar Lobaton},
+  booktitle={IEEE Global Conf. Signal Inf. Process. (GlobalSIP)},
+  _venue={IEEE Global Conf. Signal Inf. Process. (GlobalSIP)},
+  year={2015},
+  url={http://conan7882.github.io/data/papers/somrita-globalsip2017-car.pdf},
+  abstract={
+    In this paper, we present a motion segmentation based robust multi-target tracking technique for on-road obstacles. Our approach uses depth imaging information, and integrates persistence topology for segmentation and min-max network flow for tracking. To reduce time as well as computational complexity, the max flow problem is solved using a dynamic programming algorithm. We classify the sensor reading into regions of stationary and moving parts by aligning occupancy maps obtained from the disparity images and then, incorporate Kalman filter in the network flow algorithm to track the moving objects robustly. Our algorithm has been tested on several real-life stereo datasets and the results show that there is an improvement by a factor of three on robustness when comparing performance with and without the topological persistent detections. We also perform measurement accuracy of our algorithm using popular evaluation metrics for segmentation and tracking, and the results look promising.
+  }
+}
+
+@inproceedings{chunpeng2014car,
+  title={Robust Obstacle Segmentation based on Topological Persistence in Outdoor Traffic Scenes},
+  author={Chunpeng Wei and Qian Ge and Somrita Chattopadhyay and Edgar Lobaton},
+  booktitle={IEEE Symp. Series Comput. Intell. (SSCI)},
+  _venue={IEEE Symp. Series Comput. Intell. (SSCI)},
+  year={2014},
+  url={http://conan7882.github.io/data/papers/chunpeng-ssci2014-car.pdf},
+  abstract={
+    In this paper, a new methodology for robust seg- mentation of obstacles from stereo disparity maps in an on- road environment is presented. We first construct a probability of the occupancy map using the UV-disparity methodology. Traditionally, a simple threshold has been applied to segment obstacles from the occupancy map based on the connectivity of the resulting regions; however, this outcome is sensitive to the choice of parameter value. In our proposed method, instead of simple thresholding, we perform a topological persistence analysis on the constructed occupancy map. The topological framework hierarchically encodes all possible segmentation results as a function of the threshold, thus we can identify the regions that are most persistent. This leads to a more robust segmentation. The approach is analyzed using real stereo image pairs from standard datasets.
+  }
+}
+
+@inproceedings{namita2014footprint,
+  title={Manifold Learning Approach to Curve Identification with Applications to Footprint Segmentation},
+  author={Namita Lokare and Qian Ge and Wesley Snyder and Zoe Jewell and Sky Allibhai and Edgar Lobaton},
+  booktitle={IEEE Symp. Series Comput. Intell. (SSCI)},
+  _venue={IEEE Symp. Series Comput. Intell. (SSCI)},
+  year={2014},
+  url={http://conan7882.github.io/data/papers/namita-ssci2014footprint.pdf},
+  abstract={
+    Recognition of animals via images of their foot- prints is a non-invasive technique recently adopted by researchers interested in monitoring endangered species. One of the chal- lenges that they face is the extraction of features from these images, which are required for this approach. These features are points along the boundary curve of the footprints. In this paper, we propose an innovative technique for extracting these curves from depth images. We formulate the problem of identification of the boundary of the footprint as a pattern recognition problem of a stochastic process over a manifold. This methodology has other applications on segmentation of biological tissue for medical applications and tracking of extreme weather patterns. The problem of pattern identification in the manifold is posed as a shortest path problem, where the path with the smallest cost is identified as the one with the highest likelihood to belong to the stochastic process. Our methodology is tested in a new dataset of normalized depth images of tiger footprints with ground truth selected by experts in the field.
+  }
+}
+
+@inproceedings{qian2014registration,
+  title={Non-Rigid Image Registration under Non-Deterministic Deformation Bounds},
+  author={Qian Ge and Namita Lokare and Edgar Lobaton},
+  booktitle={10th International Symposium on Medical Information Processing and Analysis (SIPIM)},
+  _venue={10th International Symposium on Medical Information Processing and Analysis},
+  year={2014},
+  url={http://conan7882.github.io/data/papers/qian-sipim2014-registration.pdf},
+  abstract={
+    Image registration aims to identify the mapping between corresponding locations in an anatomic structure. Most traditional approaches solve this problem by minimizing some error metric. However, they do not quantify the uncertainty behind their estimates and the feasibility of other solutions. In this work, it is assumed that two images of the same anatomic structure are related via a Lipschitz non-rigid deformation (the registration map). An approach for identifying point correspondences with zero false-negative rate and high precision is introduced under this assumption. This methodology is then extended to registration of regions in an image which is posed as a graph matching problem with geometric constraints. The outcome of this approach is a homeomorphism with uncertainty bounds characterizing its accuracy over the entire image domain. The method is tested by applying deformation maps to the LPBA40 dataset.
+  }
+}
