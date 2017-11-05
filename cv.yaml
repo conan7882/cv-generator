@@ -25,9 +25,9 @@ order:
   # - [news, News]
   - [education, Education]
   - [skills, Skills]
+  # - [research, Research Experience]
   - [projects, Selected Projects]
-  - [projects_r, Research Projects]
-  - [research, Research Experience]
+  - [projects_r, Research Experience]
   - [selected_publications, Selected Publications]
   - [NEWPAGE, NEWPAGE]
   - [teaching, Teaching Experience]
@@ -87,12 +87,24 @@ education:
     GPA: 3.76/4.00
 
 research:
-  - place: North Carolina State University
+  - place: Active Robotic Sensing (ARoS) Laboratory, NCSU
     location: Raleigh, North Carolina, USA
     title: Research Assistant
     advisor: Dr. Edgar Lobaton
     dates: Aug 2012 -- Present
-    area: computer vision and machine learning
+    area: Computer vision and machine learning
+  - place: Laboratory for Analytic Sciences and Department of English, NCSU
+    location: Raleigh, North Carolina, USA
+    title: Research Assistant
+    advisor: Dr. Edgar Lobaton
+    dates: Feb 2016 -- Dec 2016
+    area: Applications of computer vision algorithms
+  - place: University of Electronic Science and Technology of China
+    location: Chengdu, Sichuan, China
+    title: Research Assistant
+    advisor: Dr. Hongyang Yu
+    dates: June 2008 -- May 2011
+    area: Streaming media 
 #   - place: Carnegie Mellon University
 #     location: Pittsburgh, Pennsylvania
 #     title: Research Assistant

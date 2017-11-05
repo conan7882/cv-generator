@@ -27,7 +27,8 @@ endif
 all:
 	./generate.py $(YAML_FILES) --markdown
 	cp $(MD) $(WEBSITE_MD)
-	git -C $(WEBSITE_DIR) add -A
+	date +%Y-%m-%d > $(WEBSITE_DATE)
+	git -C $(WEBSITE_DIR) add $(WEBSITE_MD) $(WEBSITE_DATE)
 	git -C $(WEBSITE_DIR) commit -m "Update cv."
 	git -C $(WEBSITE_DIR) push
 

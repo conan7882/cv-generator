@@ -166,7 +166,7 @@ def get_proj_md(section_content):
                 details_list.append("<li>{}".format(d['des']))
                 if 'url' in d:
                     details_list.append("[<a href=\'{}\' target=\'_blank\'>code</a>]".format(d['url']))
-            details_list.append('</li>')
+                details_list.append('</li>')
             details_list = ' '.join(details_list)
             details_list ='''
 <div>
