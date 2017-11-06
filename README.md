@@ -1,4 +1,4 @@
-[![Coverage Status](https://coveralls.io/repos/github/conan7882/cv-generator/badge.svg)](https://coveralls.io/github/conan7882/cv-generator)
+[![Coverage Status](https://coveralls.io/repos/github/conan7882/cv-generator/badge.svg)](https://coveralls.io/github/conan7882/cv-generator&service=github)
 [![Build Status](https://travis-ci.org/conan7882/cv-generator.svg?branch=master)](https://travis-ci.org/conan7882/cv-generator)
 
 # About 
