@@ -1,3 +1,6 @@
+
+[![Build Status](https://travis-ci.org/conan7882/cv-generator.svg?branch=master)](https://travis-ci.org/conan7882/cv-generator)
+
 # About 
 It is originally forked from [https://github.com/bamos/cv](https://github.com/bamos/cv).
 
