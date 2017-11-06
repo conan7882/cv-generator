@@ -156,7 +156,8 @@ def get_pub_md(context, config):
 
     return contents
 
-def get_proj_md(section_content):
+
+def get_proj_content(section_content):
     for idx, item in enumerate(section_content):
         details = []
         links = []
@@ -168,9 +169,9 @@ def get_proj_md(section_content):
                     details_list.append("[<a href=\'{}\' target=\'_blank\'>code</a>]".format(d['url']))
                 details_list.append('</li>')
             details_list = ' '.join(details_list)
-            details_list ='''
+            details_list = '''
 <div>
-<ul> 
+<ul>
     {}
 </ul>
 </div>'''.format(details_list)
@@ -179,14 +180,14 @@ def get_proj_md(section_content):
         section_content[idx]['details_list'] = details_list
         if 'details' in item:
             links.append('''
-[<a href=\'javascript: none\' 
+[<a href=\'javascript: none\'
     onclick=\'$("#{}").toggle()\'>details</a>]'''.format(item['tag']))
             for d in item['details']:
                 details.append("<li>{}</li>".format(d))
             details = ' '.join(details)
-            details ='''
+            details = '''
 <div id="{}" style="text-align: justify; display: none" markdown="1">
-<ul> 
+<ul>
     {}
 </ul>
 </div>'''.format(item['tag'], details)
@@ -283,52 +284,7 @@ class RenderContext(object):
                 section_template_name = os.path.join(self.SECTIONS_DIR, 'news.md')
                 section_data['items'] = section_content
             elif section_tag == 'projects' or section_tag == 'projects_r':
-                section_content = get_proj_md(section_content)
-#                 for idx, item in enumerate(section_content):
-#                     details = []
-#                     links = []
-#                     details_list = []
-#                     if 'details_list' in item:
-#                         for d in item['details_list']:
-#                             details_list.append("<li>{}".format(d['des']))
-#                             if 'url' in d:
-#                                 details_list.append("[<a href=\'{}\' target=\'_blank\'>code</a>]".format(d['url']))
-#                             details_list.append('</li>')
-#                         details_list = ' '.join(details_list)
-#                         details_list ='''
-# <div>
-# <ul> 
-#     {}
-# </ul>
-# </div>'''.format(details_list)
-#                     else:
-#                         details_list = ' '.join(details_list)
-#                     section_content[idx]['details_list'] = details_list
-#                     if 'details' in item:
-#                         links.append('''
-# [<a href=\'javascript: none\' 
-#     onclick=\'$("#{}").toggle()\'>details</a>]'''.format(item['tag']))
-#                         for d in item['details']:
-#                             details.append("<li>{}</li>".format(d))
-#                         details = ' '.join(details)
-#                         details ='''
-# <div id="{}" style="text-align: justify; display: none" markdown="1">
-# <ul> 
-#     {}
-# </ul>
-# </div>'''.format(item['tag'], details)
-#                     else:
-#                         details = ' '.join(details)
-#                     section_content[idx]['details'] = details
-#                     section_content[idx]['im'] = 'images/projects/{}.png'.format(item['tag'])
-#                     if 'codeurl' in item:
-#                         links.append("[<a href=\'{}\' target=\'_blank\'>code</a>]".format(item['codeurl']))
-#                     if 'url' in item:
-#                         links.append("[<a href=\'{}\' target=\'_blank\'>web</a>]".format(item['url']))
-#                     links.append('<br>')
-#                     links = ' '.join(links)
-#                     section_content[idx]['links'] = links
-
+                section_content = get_proj_content(section_content)
                 section_data['items'] = section_content
                 section_template_name = os.path.join(
                     self.SECTIONS_DIR, 'projects' + self._file_ending)
