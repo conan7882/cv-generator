@@ -7,6 +7,8 @@ install:
 script:
   - flake8 --ignore=E402,E501 generate.py
   - python generate.py cv.yaml --markdown 
+after_success:
+  - coveralls
 # group:
 #   - stable
 # dist: 
