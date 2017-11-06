@@ -6,10 +6,10 @@ install:
   - pip install flake8
 script:
   - flake8 --ignore=E402,E501 generate.py
-  # - python generate.py cv.yaml --markdown 
-group:
-  - stable
-dist: 
-  - trusty
-os: 
-  - linux
+  - python generate.py cv.yaml --markdown 
+# group:
+#   - stable
+# dist: 
+#   - trusty
+# os: 
+#   - linux
