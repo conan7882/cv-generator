@@ -42,30 +42,7 @@ about: '
   I am an Eletrical Engineering Ph.D. student at North Carolina State University.
   I work with \href{http://www.ece.ncsu.edu/people/ejlobato/}{Dr. Edgar Lobaton} at \href{http://research.ece.ncsu.edu/aros//}{Active Robotic Sensing (ARoS) Laboratory}
   on computer vision and machine learning.'
-  # I am particularly interested in improving our understanding of important
-  # modeling problems in computer vision, language, and reinforcement learning
-  # through the use of deep learning, optimization (sometimes convex),
-  # theory, and statistics.
-  # As examples, see our
-  # \href{https://arxiv.org/abs/1609.07152}{input-convex neural network}
-  # and
-  # \href{https://arxiv.org/abs/1703.00443}{OptNet}
-  # papers. \\[0.5em]
 
-  # I strongly believe in open science and reproducible research
-  # and actively publish code on \href{https://github.com/bamos}{my Github profile}.
-  # I am also the author of
-  # \href{https://cmusatyalab.github.io/openface/}{OpenFace},
-  # which is an open source face recognition project that
-  # uses deep learning.'
-
-news:
-  # - date: June 2017
-  #   info: "Our ICNN and OptNet papers have been accepted to ICML and
-  #   the camera-ready versions are available on arXiv."
-  # - date: May 2017
-  #   info: "I am interning at Google DeepMind in London this summer
-  #   with Nando de Freitas."
 
 education:
   - school: North Carolina State University
@@ -105,59 +82,7 @@ research:
     advisor: Dr. Hongyang Yu
     dates: June 2008 -- May 2011
     area: Streaming media 
-#   - place: Carnegie Mellon University
-#     location: Pittsburgh, Pennsylvania
-#     title: Research Assistant
-#     advisor: Prof. Mahadev Satyanarayanan
-#     dates: Aug 2014 -- Apr 2016
-#     area: Applied machine learning and mobile systems
-#     details:
-#       - |
-#           Face recognition with deep neural networks:
-#           \url{http://github.com/cmusatyalab/openface}
-#   - place: Virginia Tech
-#     location: Blacksburg, Virginia
-#     title: Undergraduate Research Assistant
-#     advisor: Prof. Jules White
-#     dates: May 2012 -- May 2014
-#     area: Mobile systems, cyber-physical systems, and security
-#     details:
-#       - Android malware detection research using
-#         a distributed {\bf Actor-based Scala} system.
-#       #- Modified the {\bf Android source} to provide non-standard logging
-#       #  information for dynamic malware analysis.
-#       - Manufacturing cyber-physical security research implemented
-#         with {\bf VC\#} and {\bf Python}.
-#       #- Developed {\bf VC\#} and {\bf Python} programs for a pilot study on
-#       #  manufacturing cyber-physical security.
-#       #- Assisted {\bf C++} and {\bf Make} development in {\bf Linux} for a
-#       #  deployment optimization framework.
-#   - place: Virginia Tech
-#     location: Blacksburg, Virginia
-#     title: Undergraduate Research Assistant
-#     advisor: Prof. Layne Watson
-#     dates: Jan 2013 -- May 2014
-#     area: Scientific computing, global/stochastic optimization, and bioinformatics
-#     details:
-#       - Algorithm development for global and stochastic optimization using quasi-Newton
-#         methods for {\bf parameter estimation} in
-#         {\bf Fortran 95} and {\bf OpenMP}.
-#       - Bioinformatics research on yeast cell modeling using
-#         {\bf Fortran 95}, {\bf C++}, and {\bf Matlab}.
 
-#   - place: Virginia Tech
-#     location: Blacksburg, Virginia
-#     title: Undergraduate Research Assistant
-#     advisor: Prof. Binoy Ravindran
-#     dates: Nov 2012 -- Mar 2014
-#     area: Heterogeneous compilers
-#     details:
-#       - Compiler research on a heterogeneous system
-#         on automatic {\bf OpenMP} to {\bf CUDA}
-#         translation using {\bf C++} and the {\bf ROSE} compiler framework.
-#       - Polyhedral loop optimization research to restructure
-#         {\bf OpenCL} kernels for locality using {\bf LLVM} and {\bf Polly}.
-#       #- '{\bf Scala} and {\bf Bash} development in {\bf Linux}.'
 
 # industry:
 #   - place: Adobe Research
@@ -221,6 +146,10 @@ research:
 #       #   and hard links.
 
 teaching:
+  - semester: F2018
+    name: Neural Networks
+    short: NCSU ECE 542
+    position: TA
   - semester: F2016
     name: Applications of Graphs and Graphical Models
     short: NCSU ECE/CSC 792
@@ -229,6 +158,7 @@ teaching:
     name: Computer Systems Programming
     short: NCSU ECE 209
     position: TA
+
 
 selected_publications:
   name: "Q. Ge"
