@@ -48,19 +48,19 @@ education:
   - school: North Carolina State University
     location: Raleigh, North Carolina, USA
     degree: Ph.D. in Eletrical Engineering
-    dates: Aug 2011 -- Present
+    dates: May 2019 (expected)
     GPA: 4.00/4.00
 
   - school: University of Electronic Science and Technology of China
     location: Chengdu, Sichuan, China
     degree: M.S. in Eletrical Engineering
-    dates: Aug 2008 -- May 2011
+    dates: June 2011
     GPA: 3.69/4.00
 
   - school: University of Electronic Science and Technology of China
     location: Chengdu, Sichuan, China
     degree: B.S. in Eletrical Engineering
-    dates: Aug 2004 -- May 2008
+    dates: July 2008
     GPA: 3.76/4.00
 
 research:
@@ -220,11 +220,10 @@ coursework:
     instructor: M. Satyanarayanan and D. Siewiorek
 
 skills:
-  - title: Languages
-    details: Python, C, C++, HTML, Java, JavaScript,
-      \LaTeX, Make, Bash
+  - title: Computer Languages
+    details: Python, Matlab, C/C++
   - title: Frameworks/Toolbox
-    details: NumPy, TensorFlow, SciPy, scikit-learn, OpenCV
+    details: TensorFlow, Numpy, Scikit-learn, OpenCV, Git
   - title: Systems
     details: Linux, OSX
 
